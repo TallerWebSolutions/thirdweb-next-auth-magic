@@ -45,7 +45,7 @@ export default function useAuth() {
       }
     }
     authFlow();
-  }, [connectionStatus, sessionStatus]);
+  }, [connectionStatus, sessionStatus, auth]);
 
   return {
     isLogged,
